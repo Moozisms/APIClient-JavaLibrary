@@ -52,7 +52,7 @@ https://github.com/Moozisms/Javaclass/blob/master/dist/Moozisms-api.jar
 - InsufficientSmsException
 - InvalidAccessKeyException
 - InvalidPhoneNumberException
-- InvalidSenderId
+- InvalidSenderIdException
 
 
 ### LIST OF FUNCTIONALITY AVALAIBLE
