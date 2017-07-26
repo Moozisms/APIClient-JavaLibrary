@@ -7,6 +7,8 @@ Moozisms JAVA Library
 
 https://github.com/Moozisms/Javaclass/blob/master/dist/Moozisms-api.jar
 
+### WEB SITE
+http://moozisms.com/
 
 ### USAGE
 
