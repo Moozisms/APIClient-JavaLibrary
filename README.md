@@ -5,7 +5,7 @@ Moozisms JAVA Library
 
 ### INSTALLATION MODULE
 
-https://github.com/Moozisms/Javaclass/blob/master/dist/Moozisms-api.jar
+https://github.com/Moozisms/APIClient-JavaLibrary/blob/master/dist/Moozisms-api.jar
 
 ### WEB SITE
 http://moozisms.com/
