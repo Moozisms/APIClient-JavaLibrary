@@ -171,6 +171,7 @@ public class Moozisms implements MoozismsApiClient{
         if(this.testConnection()){
             return this.send(api_key, api_secret, to, from, text);
         }else{
+            System.out.println("Pas de connexion internet !");
             return false;
         }
     }
@@ -198,6 +199,7 @@ public class Moozisms implements MoozismsApiClient{
             
             return result;
         }else{
+            System.out.println("Pas de connexion internet !");
             return null;
         }
     }
