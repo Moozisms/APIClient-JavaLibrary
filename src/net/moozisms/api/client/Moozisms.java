@@ -147,53 +147,53 @@ public class Moozisms implements MoozismsApiClient {
 
                 result = false;
 
-                throw new InternalErrorException("Response code : " + responseCode + "\n" + "Response from server : " + output + "\n");
+                throw new InternalErrorException("\nResponse code : " + responseCode + "\n" + "Response from server : " + output + "\n");
 
             } else if (output.contains("\"report\":\"failed\"") && output.contains("1012")) {
 
                 result = false;
 
-                throw new MessageNotSentException("Response code : " + responseCode + "\n" + "Response from server : " + output + "\n");
+                throw new MessageNotSentException("\nResponse code : " + responseCode + "\n" + "Response from server : " + output + "\n");
 
             } else if (output.contains("\"report\":\"failed\"") && output.contains("1077")) {
 
                 result = false;
 
-                throw new NetworkNotSupportedException("Response code : " + responseCode + "\n" + "Response from server : " + output + "\n");
+                throw new NetworkNotSupportedException("\nResponse code : " + responseCode + "\n" + "Response from server : " + output + "\n");
 
             } else if (output.contains("\"report\":\"failed\"") && output.contains("1090")) {
 
                 result = false;
 
-                throw new InternalErrorException("Response code : " + responseCode + "\n" + "Response from server : " + output + "\n");
+                throw new InternalErrorException("\nResponse code : " + responseCode + "\n" + "Response from server : " + output + "\n");
 
             } else if (output.contains("\"report\":\"failed\"") && output.contains("1010")) {
 
                 result = false;
 
-                throw new InsufficientSmsException("Response code : " + responseCode + "\n" + "Response from server : " + output + "\n");
+                throw new InsufficientSmsException("\nResponse code : " + responseCode + "\n" + "Response from server : " + output + "\n");
 
             } else if (output.contains("\"report\":\"failed\"") && output.contains("1001")) {
 
                 result = false;
 
-                throw new InvalidAccessKeyException("Response code : " + responseCode + "\n" + "Response from server : " + output + "\n");
+                throw new InvalidAccessKeyException("\nResponse code : " + responseCode + "\n" + "Response from server : " + output + "\n");
 
             } else if (output.contains("\"report\":\"failed\"") && output.contains("1050")) {
 
                 result = false;
 
-                throw new InvalidPhoneNumberException("Response code : " + responseCode + "\n" + "Response from server : " + output + "\n");
+                throw new InvalidPhoneNumberException("\nResponse code : " + responseCode + "\n" + "Response from server : " + output + "\n");
 
             } else if (output.contains("\"report\":\"failed\"") && output.contains("1051")) {
 
                 result = false;
 
-                throw new InvalidSenderIdException("Response code : " + responseCode + "\n" + "Response from server : " + output + "\n");
+                throw new InvalidSenderIdException("\nResponse code : " + responseCode + "\n" + "Response from server : " + output + "\n");
 
             } else if (output.contains("\"report\":\"delivred\"")) {
 
-                System.out.println("Response code : " + responseCode + "\n");
+                System.out.println("\nResponse code : " + responseCode + "\n");
 
                 System.out.println("Response from server : " + output + "\n");
 
@@ -201,6 +201,8 @@ public class Moozisms implements MoozismsApiClient {
             }
 
         } else {
+            
+            System.out.println("\nResponse code : " + responseCode + "\n");
 
             result = false;
 

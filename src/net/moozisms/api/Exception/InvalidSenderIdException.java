@@ -29,12 +29,5 @@ public class InvalidSenderIdException extends RuntimeException {
     }
     
     
-    public InvalidSenderIdException(Throwable msg) {
-        super(msg);
-    }
-    
-    public InvalidSenderIdException(String message, Throwable cause) {
-        super(message, cause);
-    }
     
 }
