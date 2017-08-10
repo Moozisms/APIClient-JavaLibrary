@@ -9,7 +9,7 @@ package net.moozisms.api.Exception;
  *
  * @author anonymousghost
  */
-public class InsufficientSmsException extends Exception {
+public class InsufficientSmsException extends RuntimeException {
 
     /**
      * Creates a new instance of <code>InsufficientSmsException</code> without

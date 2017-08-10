@@ -9,7 +9,7 @@ package net.moozisms.api.Exception;
  *
  * @author anonymousghost
  */
-public class NetworkNotSupportedException extends Exception {
+public class NetworkNotSupportedException extends RuntimeException {
 
     /**
      * Creates a new instance of <code>NetworkNotSupportedException</code>

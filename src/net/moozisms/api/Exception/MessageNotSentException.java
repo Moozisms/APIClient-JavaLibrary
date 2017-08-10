@@ -9,7 +9,7 @@ package net.moozisms.api.Exception;
  *
  * @author anonymousghost
  */
-public class MessageNotSentException extends Exception {
+public class MessageNotSentException extends RuntimeException {
 
     /**
      * Creates a new instance of <code>MessageNotSentException</code> without

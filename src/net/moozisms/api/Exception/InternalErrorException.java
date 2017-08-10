@@ -9,7 +9,7 @@ package net.moozisms.api.Exception;
  *
  * @author anonymousghost
  */
-public class InternalErrorException extends Exception {
+public class InternalErrorException extends RuntimeException {
 
     /**
      * Creates a new instance of <code>InternalErrorException</code> without

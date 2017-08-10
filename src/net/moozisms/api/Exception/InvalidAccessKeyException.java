@@ -9,7 +9,7 @@ package net.moozisms.api.Exception;
  *
  * @author anonymousghost
  */
-public class InvalidAccessKeyException extends Exception {
+public class InvalidAccessKeyException extends RuntimeException {
 
     /**
      * Creates a new instance of <code>InvalidAccessKeyException</code> without

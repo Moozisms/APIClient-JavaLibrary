@@ -9,7 +9,7 @@ package net.moozisms.api.Exception;
  *
  * @author anonymousghost
  */
-public class InvalidSenderIdException extends Exception {
+public class InvalidSenderIdException extends RuntimeException {
 
     /**
      * Creates a new instance of <code>InvalidSenderIdException</code> without
@@ -27,4 +27,14 @@ public class InvalidSenderIdException extends Exception {
     public InvalidSenderIdException(String msg) {
         super(msg);
     }
+    
+    
+    public InvalidSenderIdException(Throwable msg) {
+        super(msg);
+    }
+    
+    public InvalidSenderIdException(String message, Throwable cause) {
+        super(message, cause);
+    }
+    
 }

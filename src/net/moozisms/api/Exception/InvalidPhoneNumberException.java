@@ -9,7 +9,7 @@ package net.moozisms.api.Exception;
  *
  * @author anonymousghost
  */
-public class InvalidPhoneNumberException extends Exception {
+public class InvalidPhoneNumberException extends RuntimeException {
 
     /**
      * Creates a new instance of <code>InvalidPhoneNumberException</code>
