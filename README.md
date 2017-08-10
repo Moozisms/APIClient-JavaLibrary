@@ -7,6 +7,15 @@ Moozisms JAVA Library
 
 https://github.com/Moozisms/APIClient-JavaLibrary/blob/master/dist/Moozisms-api.jar
 
+### JAVADOC
+
+https://github.com/Moozisms/APIClient-JavaLibrary/blob/master/dist/Moozisms-api-javadoc.jar
+
+### SOURCES
+
+https://github.com/Moozisms/APIClient-JavaLibrary/blob/master/dist/Moozisms-api-sources.jar
+
+
 ### WEB SITE
 http://moozisms.com/
 
@@ -57,7 +66,7 @@ http://moozisms.com/
 - InvalidSenderIdException
 
 
-### LIST OF FUNCTIONALITY AVALAIBLE
+### LIST OF FUNCTIONALITY AVALAIBLE ON THE WEB SITE
 
 - SENDING Simple SMS
 - SENDING Bulk SMS
