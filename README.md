@@ -23,6 +23,8 @@ http://moozisms.com/
 
 > SENDING Simple SMS
 
+```java
+
         MoozismsApiClient apisms = new Moozisms();
         boolean test = false;
 
@@ -34,8 +36,13 @@ http://moozisms.com/
         } catch (Exception e) {
             System.out.println("Echec de l'opération ");
         }
+
+```
+
         
 > SENDING Bulk SMS
+
+```java
 
         MoozismsApiClient apisms = new Moozisms();
         boolean test = false;
@@ -54,6 +61,7 @@ http://moozisms.com/
         } catch (Exception e) {
             System.out.println("\nEchec de l'operation ");
         }
+```
 
 ### LIST OF EXCEPTION
 
